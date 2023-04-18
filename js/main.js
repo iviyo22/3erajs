@@ -7,25 +7,25 @@
                     id: 1,
                     nombre: 'Buenos Aires',
                     precio: 500,
-                    imagen: 'bsas.jpg'
+                    imagen: '/assets/bsas.jpg'
                 },
                 {
                     id: 2,
                     nombre: 'Cordoba',
                     precio: 1000,
-                    imagen: 'cordoba.jpg'
+                    imagen: '/assets/cordoba.jpg'
                 },
                 {
                     id: 3,
                     nombre: 'Mendoza',
                     precio: 2000,
-                    imagen: 'mendoza.jpg'
+                    imagen: '/assets/mendoza.jpg'
                 },
                 {
                     id: 4,
                     nombre: 'Santa fe',
                     precio: 1500,
-                    imagen: 'santafe.jpg'
+                    imagen: '/assets/santafe.jpg'
                 }
 
             ];
@@ -174,6 +174,25 @@
 
           
             DOMbotonVaciar.addEventListener('click', vaciarCarrito);
+            const botonRealizarCompra = document.getElementById('comprar');
+
+            botonRealizarCompra.addEventListener('click', (event) => {
+                event.preventDefault();
+              
+                // Muestra el SweetAlert de éxito
+                Swal.fire({
+                  icon: 'success',
+                  title: 'Compra realizada',
+                  text: 'El pedido se realizó con éxito',
+                });
+              
+                // Vacía el carrito
+                vaciarCarrito();
+              });
+              
+
+botonRealizarCompra.addEventListener('click', comprar);
+
 
     
             cargarCarritoDeLocalStorage();

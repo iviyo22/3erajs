@@ -1,0 +1,31 @@
+{
+    "provincias": [
+      {
+        "nombre": "Provincia1",
+        "localidades": [
+          {
+            "nombre": "Localidad1",
+            "codigo_postal": "1000"
+          },
+          {
+            "nombre": "Localidad2",
+            "codigo_postal": "1001"
+          }
+        ]
+      },
+      {
+        "nombre": "Provincia2",
+        "localidades": [
+          {
+            "nombre": "Localidad3",
+            "codigo_postal": "2000"
+          },
+          {
+            "nombre": "Localidad4",
+            "codigo_postal": "2001"
+          }
+        ]
+      }
+    ]
+  }
+  
