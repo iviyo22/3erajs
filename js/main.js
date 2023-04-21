@@ -1,31 +1,31 @@
 
         document.addEventListener('DOMContentLoaded', () => {
 
-            // Variables
+       
             const baseDeDatos = [
                 {
                     id: 1,
                     nombre: 'Buenos Aires',
                     precio: 500,
-                    imagen: '/assets/bsas.jpg'
+                    imagen: './assets/bsas.jpg'
                 },
                 {
                     id: 2,
                     nombre: 'Cordoba',
                     precio: 1000,
-                    imagen: '/assets/cordoba.jpg'
+                    imagen: './assets/cordoba.jpg'
                 },
                 {
                     id: 3,
                     nombre: 'Mendoza',
                     precio: 2000,
-                    imagen: '/assets/mendoza.jpg'
+                    imagen: './assets/mendoza.jpg'
                 },
                 {
                     id: 4,
                     nombre: 'Santa fe',
                     precio: 1500,
-                    imagen: '/assets/santafe.jpg'
+                    imagen: './assets/santafe.jpg'
                 }
 
             ];
@@ -179,14 +179,14 @@
             botonRealizarCompra.addEventListener('click', (event) => {
                 event.preventDefault();
               
-                // Muestra el SweetAlert de éxito
+                
                 Swal.fire({
                   icon: 'success',
                   title: 'Compra realizada',
                   text: 'El pedido se realizó con éxito',
                 });
               
-                // Vacía el carrito
+                
                 vaciarCarrito();
               });
               

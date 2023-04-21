@@ -1,28 +1,28 @@
 {
-    "provincias": [
+    "pais": [
       {
-        "nombre": "Provincia1",
+        "nombre": "Argentina",
         "localidades": [
           {
-            "nombre": "Localidad1",
-            "codigo_postal": "1000"
+            "nombre": "AMBA/CABA",
+            "codigo_postal": "1000/11000"
           },
           {
-            "nombre": "Localidad2",
-            "codigo_postal": "1001"
+            "nombre": "Santa fe",
+            "codigo_postal": "1001/1700"
           }
         ]
       },
       {
-        "nombre": "Provincia2",
+        "nombre": "Argentina",
         "localidades": [
           {
-            "nombre": "Localidad3",
-            "codigo_postal": "2000"
+            "nombre": "Mendoza",
+            "codigo_postal": "2000/2400"
           },
           {
-            "nombre": "Localidad4",
-            "codigo_postal": "2001"
+            "nombre": "Cordoba",
+            "codigo_postal": "2001/2700"
           }
         ]
       }
